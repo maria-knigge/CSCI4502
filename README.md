@@ -9,4 +9,7 @@ Brandon Stone
 
 ## Data
 Instances of crime in Chicago from 2001 to the present  
-Found [here](https://catalog.data.gov/dataset/crimes-2001-to-present-398a4)  
+Found [here](https://catalog.data.gov/dataset/crimes-2001-to-present-398a4)
+
+## Paper
+It's on overleaf, come and [edit the paper](https://www.overleaf.com/14223690jyqrsfzswswx)
