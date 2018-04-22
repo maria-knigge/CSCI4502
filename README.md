@@ -1,11 +1,17 @@
-#CSCI4502
+# CSCI Chicago
 Data Mining Spring 2018
 
-Friedrich Amouzou,
-Maria Knigge,
-Maria (Sol) Pazos,
-Brandon Stone 
+## Team Members
+Friedrich Amouzou,  
+Maria Knigge,  
+Maria (Sol) Pazos,  
+Brandon Stone  
 
+## Description
+## Summary of the question(s) sought and the answers
+## Application of this knowledge
+## Link to the video demonstration
+## Link to your final project paper
 
 ## Data
 Instances of crime in Chicago from 2001 to the present  
