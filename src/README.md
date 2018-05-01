@@ -4,4 +4,6 @@
 
 [json] : contains interactive map of police beats
 
-CrimeNotebook.ipynb : taken from notebook
+[prediction]: contains code to perform predictions on the dataset
+
+CrimeNotebook.ipynb : taken from notebook, includes relevant details about the dataset and how heat maps and graphs were created
