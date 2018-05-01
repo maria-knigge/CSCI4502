@@ -21,12 +21,10 @@ In general we can predict a focus of crime in the Southside
 ## Application of this knowledge
 The visualizations can be used to form a general idea of crime and arrests for individual police beats. We wanted to provide a number of visualizations so we could clearly show simple, and clear views of the relative violence throughout the city. Our predictions will show crime trends that we expect which will help to form a fully comprehensive view of crime. We want a comprehensive look at all crimes to educate and predict when and where these specific crimes tend to happen. We believe we can use the massive amount of location and time data to make a sketch of high-crime areas in the city, as well as use these attributes to predict future crime and, or arrests. We believe that past trends may be accurate in defining a general geo-temporal profile, which will allow us to predict whether or not an arrest has occurred and potentially predict criminal incidents in the future. By analyzing the data deeper for connections we aim to build a relevant, useful, and accurate predictor of crime at a place and time.
 
-## Link to the video demonstration
+## Video demonstration
 
-## Link to your final project paper
-Named "08_CSIChicago_Part4.pdf" or,
-
-It's on overleaf, come and [edit the paper](https://www.overleaf.com/14223690jyqrsfzswswx)
+## Final paper
+[08_CSIChicago_Part4.pdf](08_CSIChicago_Part4.pdf)
 
 ## Data
 Instances of crime in Chicago from 2001 to the present  
