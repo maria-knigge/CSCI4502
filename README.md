@@ -14,11 +14,12 @@ The city of Chicago, Illinois has a significantly higher crime rate than the res
 #### How do types and amount of crime change throughout the city?
 We found a general pattern of decreasing crime over the year with seasonal peaks and lows in the summer and winter respectively. Using our visualizations alone we can see a general trend of more crime in the southern side of Chicago when taking the eastward bias into account.
 #### Which neighborhoods can we classify as generally unsafe?
-We see a pattern of more violence in the south side of the city. This coincides with the higher number of arrests there as well.
+We see a pattern of more violence in the south side of the city. This coincides with the higher number of arrests there as well. We can also say that the larger police beats tend to be safer, this is because police beats with exceptionally high crime will be split into smaller ones to help combat the increased amount of crime.
 #### Can we predict future specific crime trends in certain neighborhoods?
 In general we can predict a focus of crime in the southside
 
 ## Application of this knowledge
+The visualizations can be used to form a general idea of crime and arrests for individual police beats. We wanted to provide a number of visualizations so we could clearly show simple, and clear views of the relative violence throughout the city. Our predictions will show crime trends that we expect which will help to form a fully comprehensive view of crime.
 
 ## Link to the video demonstration
 
