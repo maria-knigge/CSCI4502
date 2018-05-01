@@ -24,13 +24,13 @@ The visualizations can be used to form a general idea of crime and arrests for i
 ## Link to the video demonstration
 
 ## Link to your final project paper
+Named "08_CSIChicago_Part4.pdf" or,
+
+It's on overleaf, come and [edit the paper](https://www.overleaf.com/14223690jyqrsfzswswx)
 
 ## Data
 Instances of crime in Chicago from 2001 to the present  
 Found [here](https://catalog.data.gov/dataset/crimes-2001-to-present-398a4)
-
-## Paper
-It's on overleaf, come and [edit the paper](https://www.overleaf.com/14223690jyqrsfzswswx)
 
 ## Code
 All code should be pushed to the src folder.
