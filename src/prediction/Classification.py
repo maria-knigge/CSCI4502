@@ -12,7 +12,6 @@ from sklearn.model_selection import cross_val_score, train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from sklearn.preprocessing import StandardScaler
-from sklearn.random_projection import johnson_lindenstrauss_min_dim as jlmd, SparseRandomProjection
 from sklearn import svm
 import time
 
@@ -30,7 +29,7 @@ class classification:
     def process_data(self):
         self.s = int(random.uniform(0, 10000)) if self.s is None else self.s
         self.n = int(1e5) if self.n < 0 else self.n
-        print('Processing Data...\nRandom State: {0}\nSample Size: {1}\n'.format(self.s, self.n))
+        print('Processing Data...\nRandom State: {0}\nSample Size: {1}'.format(self.s, self.n))
         data = pd.read_csv(
             self.filename,
             parse_dates = ['Date'],
@@ -62,7 +61,8 @@ class classification:
 
     def classification(self, clf,  data, Xs, Y, test_prob, var_retained = 0.9, classifier = 'logReg', dim_reduction = 'None', scaled = True):
         x_trn, x_tst, y_trn, y_tst = train_test_split(data[Xs], data['Arrest'], test_size = test_prob, random_state = 16)
-        print('True Number of Arrests: {0}'.format(sum(y_tst)))
+        print('\nTrue Number of Arrests: {0}'.format(sum(y_tst)))
+        print('Number of Components: {0}'.format(len(Xs)))
         print('Classifier: ' + classifier)
         print('Dimensional Reduction Technique: ' + dim_reduction)
         title = ''
@@ -126,12 +126,3 @@ class classification:
         
         return clf, scores, conf_mtx[['Actual\Predicted', '0', '1']]
     
-    def sparse_random_projection(self, srp, X, y, quantile = 90):
-        print('Generating Sparse Random Projection')
-        srp.n_components = int(np.percentile(jlmd(self.n, eps = np.linspace(0.01, 0.99, 99)), quantile))
-        srp.random_state = 19375
-        print('Fitting...Transforming')
-        proj_X = srp.fit_transform(X, y)
-        print('Ready to return')
-        return srp, proj_X
-        
